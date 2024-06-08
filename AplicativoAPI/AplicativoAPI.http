@@ -1,0 +1,14 @@
+﻿@AplicativoAPI_HostAddress = https://localhost:7011
+
+POST {{AplicativoAPI_HostAddress}}/api/alunos
+Content-Type: application/json
+
+{
+  //Aluno
+}
+
+###
+
+GET {{AplicativoAPI_HostAddress}}/login?username=lukeny&password=123
+
+###
